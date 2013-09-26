@@ -1,4 +1,3 @@
-
 SET QUOTED_IDENTIFIER OFF
 GO
 --------------------------------Main Procedure----------------------------------
@@ -279,7 +278,7 @@ BEGIN
 	---------------------------------------------------------add test execution for procedure ----------------------------------
 	SET @Script = @Script + CHAR(13)+CHAR(10) + CHAR(13)+CHAR(10) + CHAR(13)+CHAR(10)
 	 + '/**************************************' + CHAR(13)+CHAR(10)
-	 + '--  Average execution time: 3 ms  ' + CHAR(13)+CHAR(10)
+	 + '--  Average execution time: ( To be added after testing execution ) ms  ' + CHAR(13)+CHAR(10)
 	 + 'DECLARE @StartTime DATETIME ' + CHAR(13)+CHAR(10)
 	 + 'SET @StartTime = GETDATE()  ' + CHAR(13)+CHAR(10)
 	 + @TestExecution + CHAR(13)+CHAR(10)
